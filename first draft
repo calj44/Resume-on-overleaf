@@ -1,0 +1,205 @@
+%-------------------------
+% Author : Carlos Lourenco
+% Based off of: https://github.com/sb2nov/resume
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Carlos Lourenco Jr} \\ \vspace{1pt}
+    \small 401-261-9086 $|$ \href{mailto:x@x.com}{\underline{Calj444@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{https://www.linkedin.com/in/carlos-lourenco-jr-a1327a293}} $|$
+    \href{https://github.com/...}{\underline{https://github.com/calj44}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rhode Island College}{Providence, RI}
+      {Bachelor of Arts in Computer Science}{Aug. 2019 - Dec. 2023}
+  \resumeSubHeadingListEnd
+
+%-----------Summary-----------
+\section{Summary}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Motivated IT professional with several years of experience working with computers and end users. Good work ethic and experienced working within teams in an agile environment,  and with writing well written code. Looking to work at the Naval Undersea Warfare Center (NUWC) in a full time role.} \\
+    }}
+ \end{itemize}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {IT Technician}{November 2023 -- Present}
+      {Automated Business Solutions}{Warwick, RI}
+      \resumeItemListStart
+        \resumeItem{Worked in a large team to solve technical problems for clients and implement IT policies}
+        \resumeItem{Explained IT solutions and procedures to non-technical clients}
+        \resumeItem{Helped set up and maintain cyber security policies for small and medium businesses}
+        \resumeItem{Responsible for producing and working on large projects utilizing agile methodologies}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {IT Intern}{Sep. 2021 -- November 2023}
+      {Providence Mutual}{Warwick, RI}
+      \resumeItemListStart
+        \resumeItem{Maintained backups and data restores for end users}
+        \resumeItem{Created and maintained virtual machines and servers}
+        \resumeItem{Provided end-user support }
+        \resumeItem{Helped and lead projects to improve the technological infrastructure of the company.}
+        \resumeItem{Maintained and created Documentation to be in compliance with auditing requirements}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Budget Calendar} $|$ \emph{Javascript, HTML, CSS, Firebase, Github}}{January 2023 -- June 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web application }
+            \resumeItem{Created a solution using user stories and issues}
+            \resumeItem{Created a working website that allowed users to login and track their spending and help schedule and plan events.}
+            \resumeItem{Worked in a group of 4 to collaborate and improve the product design and functionality}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{AI Chat Bot} $|$ \emph{Python, Jupyter Labs}}{January 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a basic chat bot that could have simple conversations}
+            \resumeItem{The Chat bot could also schedule events for you on a calendar}
+            \resumeItem{Utilized AWS Jupyter Labs to create a functioning AI chat bot}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{Game Developer Website} $|$ \emph{javascript, HTML, CSS}}{January 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Developed a website to resemble a professional game development studio}
+            \resumeItem{Website utilized multiple pages and had mobile phone localization}
+            \resumeItem{Developed the website following a strict set of requirements to fulfill the clients exact specifications}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{:Python, SQL, JavaScript, HTML/CSS, Java} \\
+     \textbf{Developer Tools}{: Git, jupyterlab, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Misc}{: Software testing, Website Development, agile development, Project Management, Project planning, Data analytics, Cyber Security Principles, Object Oriented Programming(OOP)}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
